@@ -16,26 +16,21 @@
     overflow: hidden;
 }
 
-.home-content {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.about-me {
     flex-grow: 1;
-    align-self: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+
+    display: flex;
     justify-content: center;
-
-    margin-bottom: 55px;
+    align-items: center;
 }
 
-.title {
-    font-size: 60px;
-    text-align: center;
+.github {
+    color: rgb(101, 101, 101);
+    text-decoration: none;
 }
 
-.description {
-    font-size: 20px;
-    text-align: center;
+.github:hover {
+    color: rgb(67, 67, 67);
 }
-
-
-

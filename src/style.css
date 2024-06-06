@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.restaurant-name {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    position: sticky;
+}
+
+.tab {
+    display: flex;
+    flex: 1;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    outline: none;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.tab:hover,
+.tab-selected {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.menu {
+    border-left: solid 2px rgb(187, 187, 187);
+    border-right: solid 2px rgb(187, 187, 187);
+}

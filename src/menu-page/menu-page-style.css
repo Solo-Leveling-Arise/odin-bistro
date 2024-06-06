@@ -16,26 +16,29 @@
     overflow: hidden;
 }
 
-.home-content {
+.menu-item {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     flex-grow: 1;
     align-self: center;
     justify-content: center;
-
-    margin-bottom: 55px;
 }
 
-.title {
-    font-size: 60px;
+.scp7599 {
+    background-image: url(../images/scp7599.png);
+    height: 250px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.food-name {
+    text-align: center;
+    font-size: 30px;
+}
+
+.food-description {
     text-align: center;
 }
-
-.description {
-    font-size: 20px;
-    text-align: center;
-}
-
-
-
